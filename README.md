@@ -1,2 +1,2 @@
-# baseballator_project
-Baseball Simulator based on probabilitites
+# pycrib
+Cribbage python
