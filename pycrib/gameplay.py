@@ -1,7 +1,4 @@
-from numpy.random import random, randint
-from numpy import log2
-from tabulate import tabulate
-from baseballator.utils import * 
+from pycrib.utils import * 
 
 class Team():
 	'''
