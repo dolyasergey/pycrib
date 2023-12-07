@@ -1,0 +1,352 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ran",
+				"randomint"
+			],
+			[
+				"mo",
+				"models"
+			],
+			[
+				"tea",
+				"team_id"
+			],
+			[
+				"DS",
+				"DStats"
+			],
+			[
+				"Pass",
+				"Pass_Stats"
+			],
+			[
+				"baseba",
+				"baseballator"
+			],
+			[
+				"rotati",
+				"rotation_len"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"out",
+				"outs"
+			],
+			[
+				"is",
+				"is_extra"
+			],
+			[
+				"aw",
+				"away_pitcher"
+			],
+			[
+				"ho",
+				"home_pitcher"
+			],
+			[
+				"__",
+				"__init__"
+			],
+			[
+				"c",
+				"c_hitter"
+			],
+			[
+				"HR",
+				"Hitter"
+			],
+			[
+				"conta",
+				"contact_type"
+			],
+			[
+				"bas",
+				"base_1"
+			],
+			[
+				"con",
+				"contact_result"
+			],
+			[
+				"od",
+				"odd_to_rate"
+			],
+			[
+				"k_",
+				"k_odds"
+			],
+			[
+				"Pla",
+				"Player"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "run.py",
+			"settings":
+			{
+				"buffer_size": 51,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 112.0,
+		"history":
+		[
+			"view.show_at_center(view.find_by_selector(\"invalid.illegal\")[0])"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/dolyasergey/py/cribbage"
+	],
+	"file_history":
+	[
+		"/Users/dolyasergey/Downloads/calendar-3.ics",
+		"/Users/dolyasergey/py/ttt_project/tictactoe/__init__.py",
+		"/Users/dolyasergey/py/ttt_project/tictactoe/drawer.py",
+		"/Users/dolyasergey/py/tictactoe2/game.py",
+		"/Users/dolyasergey/py/ttt_project/tictactoe/game.py",
+		"/Users/dolyasergey/My Files/Sport Stats/baseball/baseballator_project/baseballator/gameplay.py",
+		"/Users/dolyasergey/py/tictactoe/game.py",
+		"/Users/dolyasergey/Downloads/2019-shenzhen-masters.pgn",
+		"/Users/dolyasergey/py/run/write5k.py",
+		"/Users/dolyasergey/py/myclub/myclub_website/events/templates/events/base.html",
+		"/Users/dolyasergey/py/myclub/myclub_website/events/models.py",
+		"/Users/dolyasergey/py/myclub/myclub_website/events/views.py",
+		"/Users/dolyasergey/py/myclub/myclub_website/events/urls.py",
+		"/Users/dolyasergey/py/myclub/myclub_website/events/templates/events/navbar.html",
+		"/Users/dolyasergey/py/myclub/myclub_website/events/admin.py",
+		"/Users/dolyasergey/py/myclub/myclub_website/events/templates/events/home.html",
+		"/Users/dolyasergey/py/myclub/myclub_website/db.sqlite3",
+		"/Users/dolyasergey/py/myclub/myclub_website/events/templates/home.html",
+		"/Users/dolyasergey/py/myclub/myclub_website/myclub_website/settings.py",
+		"/Users/dolyasergey/py/myclub/myclub_website/myclub_website/urls.py",
+		"/Users/dolyasergey/My Files/Python/NNFS/NeuralNetworks/back_neuron.py",
+		"/Users/dolyasergey/My Files/Python/NNFS/MyNNFS/MyNNFS.py",
+		"/Users/dolyasergey/My Files/Python/NNFS/NeuralNetworks/FP_BP - neuron.py",
+		"/Users/dolyasergey/My Files/Python/NNFS/NeuralNetworks/FP_BP - layer.py",
+		"/Users/dolyasergey/Desktop/Work/Hetzner checks/input_text",
+		"/Users/dolyasergey/My Files/Sport Stats/baseball/baseballator_project/baseballator/utils.py",
+		"/Users/dolyasergey/My Files/Sport Stats/baseball/baseballator_project/setup.py",
+		"/Users/dolyasergey/My Files/Sport Stats/baseball/baseballator_project/baseballator/data/__init__.py",
+		"/Users/dolyasergey/My Files/Sport Stats/baseball/baseballator_project/baseballator/data/DATABASE_2022/__init__.py",
+		"/Users/dolyasergey/My Files/Sport Stats/baseball/baseballator_project/baseballator/data/ALLTIME/team_info.csv",
+		"/Users/dolyasergey/My Files/Sport Stats/baseball/baseballator_project/baseballator/data/DATABASE_2022/team_info.csv",
+		"/Users/dolyasergey/My Files/Sport Stats/baseball/simulator/sea-bal.py",
+		"/Users/dolyasergey/My Files/Sport Stats/baseball/baseballator_project/baseballator/__init__.py",
+		"/Users/dolyasergey/My Files/Sport Stats/baseball/baseballator/baseballator/README.md",
+		"/Users/dolyasergey/My Files/Sport Stats/baseball/simulator/df_change_test.py",
+		"/Users/dolyasergey/My Files/Sport Stats/baseball/simulator/tests.py",
+		"/Users/dolyasergey/My Files/Research/italy regression/untitled.py",
+		"/Users/dolyasergey/baseball stats/simulator/databuilder.py",
+		"/Users/dolyasergey/baseball stats/simulator/other.py"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 98.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "run.py",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 51,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 376.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/python.sublime-build",
+	"project": "cribbage.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 263.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
