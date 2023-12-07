@@ -4,22 +4,7 @@ from pycrib.utils import *
 
 
 
-def hand_value(hand, turnup):
-	'''Calculates a value of a hand
-	
-	Parameters
-	----------
-	hand : list
-		4 cards in hand
 
-	turnup: array
-		the turnup
-
-	Returns
-	-------
-	int
-		the score of a hand
-	'''
 	
 	
 
