@@ -1,73 +1,63 @@
 from pycrib.utils import * 
+from random import choices
 
-
-
-
-
-
-	
-	
-
-
-class Deck_():
+class Deck():
 	'''
 	A class used to represent a card deck
 
 	Attributes
 	----------
-	team_id : str
-		id of a team (three letters)
+	cards : list
+		list of cards
 
-	name : str
-		full name of a team
-
-	lineup : dict
-		team's batting order with Hitter objects
-
-	rotation : list
-		team's pitching rotation with Pitcher objects
-
-	bullpen : tuple
-		list with relief pitchers and a list of bullpen pitchers' stats
-
-	babip : float
-		batting average on balls in play (represents the level of defence)
 	'''
 
-	def __init__(self, team_id, name, lineup, rotation, bullpen_stats, bullpen_names, babip):
+	def __init__(self, cards=[]):
 		'''
+
+		'''
+		self.cards = cards
+		if cards == []:
+			suits = ['C', 'D', 'S', 'H']
+			values = ['A',2,3,4,5,6,7,8,9,10,'J','Q','K']
+			for suit in suits:
+				for value in values:
+					self.cards.append((value, suit))
+
+	def draw(self, n=6):
+		'''
+		A function to draw n cards from a deck
+
 		Parameters
 		----------
-		team_id : str
-			id of a team (three letters)
+		n : int
+			number of cards to draw
 
-		name : str
-			full name of a team
-
-		lineup : dict
-			team's batting order with Hitter objects
-
-		rotation : list
-			team's pitching rotation with Pitcher objects
-
-		bullpen_stats : list
-			list with stats of a bullpen
-
-		bullpen_names : list
-			list with relief pitchers' names
-
-		babip : float
-			batting average on balls in play (represents the level of defence)
+		Returns
+		-------
+		list
+			a draw of n cards
 		'''
-		self.team_id = team_id
-		self.name = name
-		self.lineup = lineup
-		self.rotation = rotation
-		self.bullpen = (bullpen_names, bullpen_stats)
-		self.babip = babip
+		return choices(self.cards, k=n)
+
+	def remaining(self, excluded):
+		'''
+		A function to check the remaining cards
+
+		Parameters
+		----------
+		excluded : list
+			list of cards to exlude
+
+		Returns
+		-------
+		Deck
+			a Deck with only cards left
+		'''
+		return Deck([card for card in self.cards if card not in excluded])
 
 	def __str__ (self):
-		return 'Team({})'.format(self.name)
+		return 'Deck of cards'
 	def __repr__(self):
-		return 'Team({})'.format(self.name)
+		return 'Deck of cards'
 

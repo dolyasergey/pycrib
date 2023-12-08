@@ -1,14 +1,11 @@
 import pycrib
 
-hand = [
-(9,'h'),
-(2,'h'),
-(7,'h'),
-('Q','t')
-]
 
-turnup = ('A','h')
+deck = pycrib.Deck()
+hand = deck.draw()[:4]
+turnup = deck.remaining(hand).draw(1)[0]
 
 result = pycrib.hand_value(hand, turnup)
 
+print(hand, turnup)
 print(result[1])
